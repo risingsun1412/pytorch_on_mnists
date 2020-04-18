@@ -28,7 +28,7 @@ testDataset = tv.datasets.MNIST(
     transform=transform,
     download=True
 )
-testLoader = DataLoader(dataset=testDataset, shuffle=True, batch_size=64)
+testLoader = DataLoader(dataset=testDataset, shuffle=True, batch_size=batch_size)
 #---------------------
 device = 'cpu'
 if t.cuda.is_available():
