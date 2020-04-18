@@ -8,7 +8,7 @@ from torch.nn import BCELoss
 from torch.optim import Adam
 from net import Net
 from visdom import Visdom
-from optins import *
+from options import *
 from utils import to_categorical
 
 transform = transforms.Compose([
